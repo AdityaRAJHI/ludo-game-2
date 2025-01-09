@@ -1,0 +1,12 @@
+{
+      "name": "3d-dice",
+      "version": "1.0.0",
+      "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview"
+      },
+      "devDependencies": {
+        "vite": "^4.2.0"
+      }
+    }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ludo Game</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div id="game-board">
+        <div class="board-section blue">
+          <div class="home">
+            <div class="player" id="player1-1" data-position="-1" data-home="blue" data-index="0"></div>
+            <div class="player" id="player1-2" data-position="-1" data-home="blue" data-index="1"></div>
+            <div class="player" id="player1-3" data-position="-1" data-home="blue" data-index="2"></div>
+            <div class="player" id="player1-4" data-position="-1" data-home="blue" data-index="3"></div>
+          </div>
+        </div>
+        <div class="board-section yellow">
+          <div class="home">
+            <div class="player" id="player2-1" data-position="-1" data-home="yellow" data-index="0"></div>
+            <div class="player" id="player2-2" data-position="-1" data-home="yellow" data-index="1"></div>
+            <div class="player" id="player2-3" data-position="-1" data-home="yellow" data-index="2"></div>
+            <div class="player" id="player2-4" data-position="-1" data-home="yellow" data-index="3"></div>
+          </div>
+        </div>
+         <div class="track-container">
+          <div class="track">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+            <div class="cell" data-index="9"></div>
+            <div class="cell" data-index="10"></div>
+            <div class="cell" data-index="11"></div>
+            <div class="cell" data-index="12"></div>
+            <div class="cell" data-index="13"></div>
+            <div class="cell" data-index="14"></div>
+            <div class="cell" data-index="15"></div>
+            <div class="cell" data-index="16"></div>
+            <div class="cell" data-index="17"></div>
+            <div class="cell" data-index="18"></div>
+            <div class="cell" data-index="19"></div>
+            <div class="cell" data-index="20"></div>
+            <div class="cell" data-index="21"></div>
+            <div class="cell" data-index="22"></div>
+            <div class="cell" data-index="23"></div>
+            <div class="cell" data-index="24"></div>
+            <div class="cell" data-index="25"></div>
+            <div class="cell" data-index="26"></div>
+            <div class="cell" data-index="27"></div>
+            <div class="cell" data-index="28"></div>
+            <div class="cell" data-index="29"></div>
+            <div class="cell" data-index="30"></div>
+            <div class="cell" data-index="31"></div>
+            <div class="cell" data-index="32"></div>
+            <div class="cell" data-index="33"></div>
+            <div class="cell" data-index="34"></div>
+            <div class="cell" data-index="35"></div>
+            <div class="cell" data-index="36"></div>
+            <div class="cell" data-index="37"></div>
+            <div class="cell" data-index="38"></div>
+            <div class="cell" data-index="39"></div>
+            <div class="cell" data-index="40"></div>
+            <div class="cell" data-index="41"></div>
+            <div class="cell" data-index="42"></div>
+            <div class="cell" data-index="43"></div>
+            <div class="cell" data-index="44"></div>
+            <div class="cell" data-index="45"></div>
+            <div class="cell" data-index="46"></div>
+            <div class="cell" data-index="47"></div>
+            <div class="cell" data-index="48"></div>
+            <div class="cell" data-index="49"></div>
+            <div class="cell" data-index="50"></div>
+            <div class="cell" data-index="51"></div>
+          </div>
+        </div>
+        <div class="board-section red">
+          <div class="home">
+            <div class="player" id="player3-1" data-position="-1" data-home="red" data-index="0"></div>
+            <div class="player" id="player3-2" data-position="-1" data-home="red" data-index="1"></div>
+            <div class="player" id="player3-3" data-position="-1" data-home="red" data-index="2"></div>
+            <div class="player" id="player3-4" data-position="-1" data-home="red" data-index="3"></div>
+          </div>
+        </div>
+        <div class="board-section green">
+          <div class="home">
+            <div class="player" id="player4-1" data-position="-1" data-home="green" data-index="0"></div>
+            <div class="player" id="player4-2" data-position="-1" data-home="green" data-index="1"></div>
+            <div class="player" id="player4-3" data-position="-1" data-home="green" data-index="2"></div>
+            <div class="player" id="player4-4" data-position="-1" data-home="green" data-index="3"></div>
+          </div>
+        </div>
+      </div>
+      <button id="roll-dice">Roll Dice</button>
+      <div id="dice-result"></div>
+      <script type="module" src="main.js"></script>
+    </body>
+    </html>

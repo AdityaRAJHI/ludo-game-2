@@ -1,0 +1,96 @@
+body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    #game-board {
+      display: grid;
+      grid-template-columns: repeat(2, 250px);
+      grid-template-rows: repeat(2, 250px);
+      gap: 0px;
+      position: relative;
+    }
+
+    .board-section {
+      width: 250px;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #000;
+    }
+
+    .blue { background-color: rgba(0, 0, 255, 0.7); }
+    .yellow { background-color: rgba(255, 255, 0, 0.7); }
+    .red { background-color: rgba(255, 0, 0, 0.7); }
+    .green { background-color: rgba(0, 255, 0, 0.7); }
+
+    .home {
+      width: 180px;
+      height: 180px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 10px;
+      position: relative;
+      background-color: #fff;
+      border: 2px solid #000;
+    }
+
+    .player {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      position: absolute;
+    }
+
+    #player1-1, #player1-2, #player1-3, #player1-4 { background-color: blue; }
+    #player2-1, #player2-2, #player2-3, #player2-4 { background-color: yellow; }
+    #player3-1, #player3-2, #player3-3, #player3-4 { background-color: red; }
+    #player4-1, #player4-2, #player4-3, #player4-4 { background-color: green; }
+
+    .track-container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .track {
+      display: grid;
+      grid-template-columns: repeat(15, 30px);
+      grid-template-rows: repeat(15, 30px);
+    }
+
+    .cell {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #000;
+    }
+
+    #roll-dice {
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #roll-dice:hover {
+      background-color: #367c39;
+    }
+
+    #dice-result {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
